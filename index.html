@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajay Sodhi - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Ajay Sodhi
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          ajay_sodhi@outlook.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +16475058053
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="html_finalprojimages/blue_boy_typing_nothought.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Ajay Sodhi! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I'm a recent honours Bachelor of Science graduate in Computer Science from Wilfrid Laurier University, passionate about leveraging technology to solve complex problems!
+            With a robust background in machine learning, software development, and data analysis, I have developed innovative projects such as a facial expression recognition system and a PC game sales predictor. 
+            My technical proficiency spans a wide range of programming languages and tools, enabling me to create dynamic and user-friendly solutions that drive efficiency and insight.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+
+        <div class="skill">
+          <img src="html_finalprojimages/Python-logo-notext.svg.png"/>
+          <h6>Python</h6>
+          <p>5+ years experience</p>
+        </div> 
+        
+        <div class="skill">
+          <img src="html_finalprojimages/java.png"/>
+          <h6>Java</h6>
+          <p>5+ years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/C_Logo.png"/>
+          <h6>C</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/25231.png"/>
+          <h6>Github</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/Sql_data_base_with_logo.png"/>
+          <h6>SQL</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/images.png"/>
+          <h6>PHP</h6>
+          <p>1 years experience</p>
+        </div>  
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Facial Expression Recognition</h3>
+            <ul>
+              <li>Developed and optimized a CNN from scratch using TensorFlow and Keras, achieving 61.5% validation accuracy on a dataset containing facial expressions by implementing L2 regularization, dropout layers, and 11-layer architecture to enhance model performance by 11.5%</li>
+              <li>Fine-tuned ResNet50, MobileNetV2, and InceptionV3 pre-trained models using data augmentation, learning rate adjustments, and unfreezing specific layers, leading to a 66.7% validation accuracy in an ensemble model.</li>
+              <li>Deployed an interactive interface using Gradio to compare model predictions for uploaded images, facilitating user-friendly interaction.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>PC Game Sales Predictor</h3>
+            <ul>
+              <li>Built and trained multiple machine learning models, including Decision Tree, KNN, and Lasso Regression, using the SciKit-learn library and a pre-processed dataset from SteamSpy to predict game ownership, resulting in an R2 score of 0.66.</li>
+              <li>Performed feature selection and dimensionality reduction using SelectKBest and one-hot encoding on categorical data, improving model performance by removing irrelevant features and reducing bias in predicting game success.</li>
+              <li>Analyzed game characteristics such as genre, price, tags, and playtime using exploratory data analysis, leading to valuable insights in determining attributes associated with highly successful games.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Compiler</h3>
+            <ul>
+              <li>Constructed a compiler from scratch in python for a pseudo-language by implementing a transition table for Lexical analysis, ensuring tokens are accurately created.</li>
+              <li>Created an LL1 parsing table for syntax analysis to handle language grammar, allowing the compiler to recognize proper syntax.</li>
+              <li>Executed semantic analysis and intermediate code generation by converting source code into 3-TAC, facilitating easier translation to machine code for efficient program execution.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Database Management Platform</h3>
+            <ul>
+              <li>Developed an Apache web server and PHP scripts, allowing users to securely update, search and delete products stored within a local MySQL database.</li>
+              <li>Implemented prepared SQL statements using PHP data objects (PDO) to securely handle database queries.</li>
+              <li>Designed an intuitive user interface with HTML, CSS and JavaScript enhancing user experience.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Bookit - Restaurant Booking App</h3>
+            <ul>
+              <li>Programmed an Android app, using Java and Firebase to enable users to browse nearby restaurants and make table reservations, integrating location services and restaurant details.</li>
+              <li>Designed and integrated map functionality using Google Maps API, allowing users to discover nearby restaurants.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Visualizing Canada's Rental Market</h3>
+            <ul>
+              <li>Analyzed Canada’s rental market from 1987 to 2022 using Python and Pandas, processing government-provided data to uncover trends in rental prices for different housing unit types across Canadian cities.</li>
+              <li>Created data visualizations that mapped fluctuations in rental prices geographically over time, highlighting significant regional trends impacting housing affordability.</li>
+            </ul>
+          </div>
+          <hr>
+          
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Ajay's proficiency in tackling complex software challenges is exceptional.
+          His dedication to adapt and learn new technologies quickly is truly impressive.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Ajay consistently delivers high-quality work under tight deadlines.
+          His dedication and methodical approach make him a standout developer.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It's rare to come across someone as driven and focused as Ajay.
+          His contributions have been invaluable to our project's success.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
